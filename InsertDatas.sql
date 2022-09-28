@@ -57,36 +57,34 @@ insert into users (id_user, user_name, "password", email, age, created_at, id_st
 		values('0a3118de-b83e-4fa5-8e39-9c2ceb1b43c7', 'administrator', '#$%^&r321tyu$%^&ghjk', 'correo@correo.com', 999, now(), 1, 3);
 
 
-insert into users_courses (id_user, id_course)
-	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','d0c91a88-2f00-4aac-9b09-897282beaa20');
-insert into users_courses (id_user, id_course)
-	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','02e750da-bbbe-4f7e-a96f-dccd3b27a6fc');
-insert into users_courses (id_user, id_course)
-	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','e6ec17e5-62f5-4611-ac10-22042625f7da');
-insert into users_courses (id_user, id_course)
-	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','bd213c91-5748-4e0e-9d62-a091a457744a');
+insert into users_courses (id_user, id_course, progress, review)
+	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','d0c91a88-2f00-4aac-9b09-897282beaa20', 50, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','02e750da-bbbe-4f7e-a96f-dccd3b27a6fc', 45, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','e6ec17e5-62f5-4611-ac10-22042625f7da', 60, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('db582fae-ad1b-4ac0-a05f-9eb5783405d3','bd213c91-5748-4e0e-9d62-a091a457744a', 100, 'best course');
 
-insert into users_courses (id_user, id_course)
-	values('966ccfd7-a779-4653-a821-080b45b4bf25','d0c91a88-2f00-4aac-9b09-897282beaa20');
-insert into users_courses (id_user, id_course)
-	values('966ccfd7-a779-4653-a821-080b45b4bf25','02e750da-bbbe-4f7e-a96f-dccd3b27a6fc');
-insert into users_courses (id_user, id_course)
-	values('966ccfd7-a779-4653-a821-080b45b4bf25','e6ec17e5-62f5-4611-ac10-22042625f7da');
-insert into users_courses (id_user, id_course)
-	values('966ccfd7-a779-4653-a821-080b45b4bf25','bd213c91-5748-4e0e-9d62-a091a457744a');
+insert into users_courses (id_user, id_course, progress, review)
+	values('966ccfd7-a779-4653-a821-080b45b4bf25','d0c91a88-2f00-4aac-9b09-897282beaa20', 10, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('966ccfd7-a779-4653-a821-080b45b4bf25','02e750da-bbbe-4f7e-a96f-dccd3b27a6fc', 0, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('966ccfd7-a779-4653-a821-080b45b4bf25','e6ec17e5-62f5-4611-ac10-22042625f7da', 60, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('966ccfd7-a779-4653-a821-080b45b4bf25','bd213c91-5748-4e0e-9d62-a091a457744a', 70, 'best course');
 
-insert into users_courses (id_user, id_course)
-	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','d0c91a88-2f00-4aac-9b09-897282beaa20');
-insert into users_courses (id_user, id_course)
-	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','02e750da-bbbe-4f7e-a96f-dccd3b27a6fc');
-insert into users_courses (id_user, id_course)
-	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','e6ec17e5-62f5-4611-ac10-22042625f7da');
-insert into users_courses (id_user, id_course)
-	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','bd213c91-5748-4e0e-9d62-a091a457744a');
+insert into users_courses (id_user, id_course, progress, review)
+	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','d0c91a88-2f00-4aac-9b09-897282beaa20', 20, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','02e750da-bbbe-4f7e-a96f-dccd3b27a6fc', 33, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','e6ec17e5-62f5-4611-ac10-22042625f7da', 85, 'best course');
+insert into users_courses (id_user, id_course, progress, review)
+	values('e78f45c9-0af3-46e4-8398-dab673fa6c1e','bd213c91-5748-4e0e-9d62-a091a457744a', 90, 'best course');
 
 
 	
-	
-
 		
 		
