@@ -12,7 +12,9 @@ CREATE TABLE "users" (
 CREATE TABLE "users_courses" (
   "id_user_course" SERIAL PRIMARY KEY,
   "id_user" uuid NOT NULL,
-  "id_course" uuid NOT NULL
+  "id_course" uuid NOT NULL,
+  "progress" int NOT NULL,
+  "review" varchar NOT NULL
 );
 
 CREATE TABLE "courses" (
